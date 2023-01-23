@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="9">
+  <parameter name="url" value="https://dev.qatarvisacenter.com/"/>
+  <test thread-count="5" name="Test(failed)" verbose="9">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.QVC.testcases.TC_001_NormalAppointmentFlow">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="report"/>
+          <include name="tearDownClass"/>
+          <include name="startReport"/>
+          <include name="normalAppointmentFlow" invocation-numbers="0"/>
+          <include name="setExcelValues"/>
+          <include name="beforeMethods"/>
+          <include name="stopReport"/>
+        </methods>
+      </class> <!-- com.QVC.testcases.TC_001_NormalAppointmentFlow -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
