@@ -9,10 +9,65 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">40,810</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">200,480</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.QVC.testcases.TC_003_ModifyDetails</td><td><a href="#m0">normalAppointmentFlow</a></td><td rowspan="1">1674473152707</td><td rowspan="1">23956</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.QVC.testcases.TC_001_NormalAppointmentFlow</td><td><a href="#m0">normalAppointmentFlow</a></td><td rowspan="1">1674473629932</td><td rowspan="1">49118</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.QVC.testcases.TC_002_Reprint</td><td><a href="#m1">normalAppointmentFlow</a></td><td rowspan="1">1674473743522</td><td rowspan="1">25782</td></tr><tr class="passedodd"><td rowspan="1">com.QVC.testcases.TC_003_ModifyDetails</td><td><a href="#m2">normalAppointmentFlow</a></td><td rowspan="1">1674473789389</td><td rowspan="1">25086</td></tr><tr class="passedeven"><td rowspan="1">com.QVC.testcases.TC_004_Reschedule</td><td><a href="#m3">normalAppointmentFlow</a></td><td rowspan="1">1674473688821</td><td rowspan="1">45371</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.QVC.testcases.TC_003_ModifyDetails#normalAppointmentFlow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th></tr><tr class="param stripe"><td>English</td><td>India</td><td>523456INDNWC</td><td>523456</td><td>00917708432242 </td><td>thamarais@spinebiz.com</td><td>thamarais@spinebiz.com</td><td>Chennai</td><td>Normal</td><td>27 </td><td> 10:00</td><td>27 </td><td> 12:45</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.QVC.testcases.TC_001_NormalAppointmentFlow#normalAppointmentFlow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th></tr><tr class="param stripe"><td>English</td><td>India</td><td>9993456INDNWC</td><td>99923456</td><td>00917708432242 </td><td>thamarais@spinebiz.com</td><td>thamarais@spinebiz.com</td><td>Chennai</td><td>Normal</td><td>27 </td><td> 10:15</td><td>27 </td><td> 12:45</td></tr><tr><th colspan="13">Exception</th></tr><tr><td colspan="13"><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;pull-right m-10 fw-500 font-two cursor-pointer&quot;&gt;...&lt;/span&gt; is not clickable at point (1138, 11). Other element would receive the click: &lt;p&gt;...&lt;/p&gt;
+  (Session info: chrome=109.0.5414.75)
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;VSWINCHE016&apos;, ip: &apos;10.101.10.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6e2c3d99587e5bdf9744cb0351fe617, clickElement {id=1213b306-793c-4a4c-8ed9-9664792e0431}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53536}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53536/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c6e2c3d99587e5bdf9744cb0351fe617)] -&gt; xpath: //span[text()=&apos;Download&apos;]]
+Session ID: c6e2c3d99587e5bdf9744cb0351fe617
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at com.QVC.pages.OrderSummaryPage.DownloadApptletter(OrderSummaryPage.java:56)
+	at com.QVC.testcases.TC_001_NormalAppointmentFlow.normalAppointmentFlow(TC_001_NormalAppointmentFlow.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.QVC.testcases.TC_002_Reprint#normalAppointmentFlow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th></tr><tr class="param stripe"><td>English</td><td>India</td><td>9993456INDNWC</td><td>99923456</td><td>00917708432242 </td><td>thamarais@spinebiz.com</td><td>thamarais@spinebiz.com</td><td>Chennai</td><td>Normal</td><td>27 </td><td> 10:15</td><td>27 </td><td> 12:45</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.QVC.testcases.TC_003_ModifyDetails#normalAppointmentFlow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th></tr><tr class="param stripe"><td>English</td><td>India</td><td>9993456INDNWC</td><td>99923456</td><td>00917708432242 </td><td>thamarais@spinebiz.com</td><td>thamarais@spinebiz.com</td><td>Chennai</td><td>Normal</td><td>27 </td><td> 10:15</td><td>27 </td><td> 12:45</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.QVC.testcases.TC_004_Reschedule#normalAppointmentFlow</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th><th>Parameter #13</th></tr><tr class="param stripe"><td>English</td><td>India</td><td>9993456INDNWC</td><td>99923456</td><td>00917708432242 </td><td>thamarais@spinebiz.com</td><td>thamarais@spinebiz.com</td><td>Chennai</td><td>Normal</td><td>27 </td><td> 10:15</td><td>27 </td><td> 12:45</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

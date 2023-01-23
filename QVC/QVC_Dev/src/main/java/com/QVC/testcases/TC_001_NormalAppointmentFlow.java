@@ -58,7 +58,6 @@ public void normalAppointmentFlow(String language,String Countryname,String pass
 					.clickNext()
                      .clickCaptcha()
 					.clickConfirm()
-
 					.DownloadApptletter();
 
 

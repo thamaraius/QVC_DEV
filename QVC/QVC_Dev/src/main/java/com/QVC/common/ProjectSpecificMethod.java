@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
@@ -35,8 +36,8 @@ public class ProjectSpecificMethod extends Base {
 			if(browserName.equalsIgnoreCase("chrome")) {
 				WebDriverManager.chromedriver().setup();
 				ChromeOptions options = new ChromeOptions();
-				String downloadPath="C:\\Users\\thamarais\\eclipse-workspace\\Gerrys_Website\\downloads";
-				//String downloadPath="C:\\Users\\thamarais\\Documents\\AppointmentLetter";
+				//String downloadPath="C:\\Users\\thamarais\\eclipse-workspace\\Gerrys_Website\\downloads";
+				String downloadPath="./../documents/downloads/";
 				HashMap<String, Object> Prefs = new HashMap<String, Object>();
 				Prefs.put("profile.default_content_settings.popups", 0);
 				Prefs.put("download.default_directory", downloadPath);
@@ -71,11 +72,18 @@ public class ProjectSpecificMethod extends Base {
 
 		}
 
-		/*
-		 * @AfterMethod public void afterMethod()
-		 *
-		 * { for(String winHandle : driver.getWindowHandles()) { if (winHandle ==
-		 * driver.getWindowHandles().toArray()[driver.getWindowHandles().size()-1]) {
-		 * continue; } driver.switchTo().window(winHandle); driver.close(); } }
-		 */
+
+		  @AfterMethod
+		  public void afterMethod()
+
+		  {
+			  for(String winHandle : driver.getWindowHandles())
+			  { if (winHandle == driver.getWindowHandles().toArray()[driver.getWindowHandles().size()-1])
+			  {
+		  continue;
+		  }
+			  driver.switchTo().window(winHandle); driver.close();
+			  }
+			  }
+
 }
