@@ -25,7 +25,7 @@ public class TC_001_NormalAppointmentFlow extends ProjectSpecificMethod {
 	}
 
 	@Test(dataProvider="fetchData")
-public void normalAppointmentFlow(String language,String Countryname,String passportNumber,String visaNumber,String sponsorPhNo,String sponsorEmail,String emailID,String center,String category,String date,String timeSlot ) throws InterruptedException, IOException
+public void normalAppointmentFlow(String language,String Countryname,String passportNumber,String visaNumber,String sponsorPhNo,String sponsorEmail,String emailID,String center,String category,String date,String timeSlot,String Reschedule_date,String Reschedule_Time ) throws InterruptedException, IOException
 	{
 
 

@@ -17,6 +17,18 @@
           <include name="stopReport"/>
         </methods>
       </class> <!-- com.QVC.testcases.TC_001_NormalAppointmentFlow -->
+      <class name="com.QVC.testcases.TC_004_Reschedule">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="report"/>
+          <include name="tearDownClass"/>
+          <include name="startReport"/>
+          <include name="normalAppointmentFlow" invocation-numbers="0"/>
+          <include name="beforeMethods"/>
+          <include name="stopReport"/>
+          <include name="setExcelValues"/>
+        </methods>
+      </class> <!-- com.QVC.testcases.TC_004_Reschedule -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

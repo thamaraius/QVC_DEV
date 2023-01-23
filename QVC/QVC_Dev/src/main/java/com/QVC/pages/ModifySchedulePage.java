@@ -74,25 +74,22 @@ public class ModifySchedulePage extends Base {
 		return this;
 	}
 
-	public ModifySchedulePage Date(String date) throws InterruptedException {
+	public ModifySchedulePage Date(String Reschedule_date) throws InterruptedException {
 		// scrollToElement(); //
 		/* Date(date); */
 
 			Thread.sleep(4000);
 			//WebElement elem = locateElement("xpath", "//table[@class='datepicker__calendar']/tbody[1]/tr[4]/td[4]/button[1]");//
-			WebElement elem=driver.findElement(By.xpath("//button[text()='7 ']"));
+			WebElement elem=driver.findElement(By.xpath("//button[text()='"+Reschedule_date+"']"));
 			elem.click();
 			Thread.sleep(4000);
 			return this;
 			}
 
-	public ModifySchedulePage pickTime(String time) throws InterruptedException {
-		// Thread.sleep(1000);
-		//WebElement ele = locateElement("xpath", "//button[text()[normalize-space()='" + time + "']]");//
-		WebElement ele = locateElement("xpath", "//button[text()=' 18:30']");
-		// WebElement ele =
-		// driver.findElementByXPath("//button[text()[normalize-space()='"+time+"']]");
-		//scrollToElement();
+	public ModifySchedulePage pickTime(String Reschedule_Time) throws InterruptedException {
+
+		WebElement ele = locateElement("xpath", "//button[text()='"+Reschedule_Time+"']");
+
 		click(ele);
 		return this;
 	}

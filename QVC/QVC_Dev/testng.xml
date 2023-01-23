@@ -5,8 +5,8 @@
   <test thread-count="5" name="Test">
      <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.QVC.testcases.TC_001_NormalAppointmentFlow"/>
-          <class name="com.QVC.testcases.TC_002_Reprint"/>
+     
+            <class name="com.QVC.testcases.TC_003_ModifyDetails"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
