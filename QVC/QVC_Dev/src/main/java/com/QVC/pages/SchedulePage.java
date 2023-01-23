@@ -121,10 +121,11 @@ public class SchedulePage extends Base {
 
 		public SchedulePage pickTime(String timeSlot ) throws InterruptedException {
 
-	    JavascriptExecutor js = driver;
+	   // JavascriptExecutor js = driver;
+	  //js.executeScript("window.scrollBy(0,400)");
 		WebElement elem = locateElement("xpath", "//button[text()='"+timeSlot+"']");
-		//elem.click();
-		js.executeScript("arguments[0].click();", elem);
+		elem.click();
+		//js.executeScript("arguments[0].click();", elem);
 
 		return this;
 

@@ -30,6 +30,11 @@ public void normalAppointmentFlow(String language,String Countryname,String pass
 	{
 
 			new HomePage(driver,node,test)
+			.clickLanguageDropDown()
+			.clickLanguage( language)
+			.clickCountryDropDown()
+			.clickCountry( Countryname)
+			.checkLandingNotification()
 			.clickManageAppointmentLink()
 			.clickReprintButton()
 			.enterPassPortNumber(passportNumber)
