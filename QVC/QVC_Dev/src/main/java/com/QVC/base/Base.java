@@ -55,7 +55,6 @@ public class Base extends Reporter implements Browser, Element{
 			reportStep("The Element "+text+" could not be clicked", "fail");
 			throw new RuntimeException();
 
-
 		}
 	}
 	public void clickWithNoSnap(WebElement ele) {
@@ -554,9 +553,6 @@ public void writeExcel1(String WorkBookName,int SheetNumber,String data,int cell
 
     cell.setCellValue(data);
 
-
-
-
     FileOutputStream fos2 = new FileOutputStream(path2);
     workbook2.write(fos2);
     fos2.close();
@@ -565,6 +561,9 @@ public void writeExcel1(String WorkBookName,int SheetNumber,String data,int cell
     fis2.close();
 
     }
+public void testMethod(){
+
+}
 }
 
 
