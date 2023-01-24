@@ -9,6 +9,7 @@
      <class name="com.QVC.testcases.TC_004_Reschedule"/>
      <class name="com.QVC.testcases.TC_002_Reprint"/>
      <class name="com.QVC.testcases.TC_003_ModifyDetails"/>
+   
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

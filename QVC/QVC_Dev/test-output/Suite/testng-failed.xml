@@ -5,18 +5,19 @@
   <test thread-count="5" name="Test(failed)" verbose="9">
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="com.QVC.testcases.TC_001_NormalAppointmentFlow">
+      <class name="com.QVC.testcases.TC_004_Reschedule">
         <methods>
-          <include name="setUpClass"/>
           <include name="report"/>
+          <include name="setUpClass"/>
+          <include name="afterMethod"/>
           <include name="tearDownClass"/>
           <include name="startReport"/>
           <include name="normalAppointmentFlow" invocation-numbers="0"/>
-          <include name="setExcelValues"/>
           <include name="beforeMethods"/>
           <include name="stopReport"/>
+          <include name="setExcelValues"/>
         </methods>
-      </class> <!-- com.QVC.testcases.TC_001_NormalAppointmentFlow -->
+      </class> <!-- com.QVC.testcases.TC_004_Reschedule -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

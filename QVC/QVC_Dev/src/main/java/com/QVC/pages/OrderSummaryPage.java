@@ -24,20 +24,20 @@ public class OrderSummaryPage extends Base{
 		JavascriptExecutor js = driver;
 		js.executeScript("window.scrollBy(0,250)", "");
 
-		WebElement ele=locateElement("xpath","//input[contains(@class,'form-control txt-style')]");
+		WebElement ele=locateElement("xpath","//body/qvc-root[1]/div[1]/qvc-schedule[1]/div[1]/div[1]/div[2]/qvc-reviewsummary[1]/div[1]/div[1]/div[6]/div[2]/div[2]/input[1]");
 	    js.executeScript("arguments[0].click();", ele);
 
-        Thread.sleep(10000);
+
 		return this;
 
 	}
 	public OrderSummaryPage clickConfirm() throws InterruptedException
 	{
 
-		Thread.sleep(7000);
+		 Thread.sleep(10000);
 		click(locateElement("xpath","//button[contains(text(),'Confirm')]"));
 
-
+		Thread.sleep(10000);
 		return this;
 
 	}
@@ -45,12 +45,16 @@ public class OrderSummaryPage extends Base{
 
 	public AppointmentDetailsPage DownloadApptletter() throws InterruptedException {
 		 {
-			 JavascriptExecutor js = driver;
-			WebElement ele = locateElement("xpath", "//span[text()='Download']");
-			  js.executeScript("arguments[0].click();", ele);
-		 //  ele.click();
 
-		return new AppointmentDetailsPage(driver,node,test);
+			  click(locateElement("xpath","//header/div[1]/a[1]/i[1]"));
+			  Thread.sleep(3000);
+			 // JavascriptExecutor js = driver;
+			  WebElement ele = locateElement("xpath", "//body/qvc-root[1]/div[1]/qvc-schedule[1]/div[1]/div[1]/div[2]/qvc-letter[1]/div[1]/div[1]/div[1]/span[1]");
+			 // js.executeScript("arguments[0].click();", ele);
+		      ele.click();
+		      Thread.sleep(5000);
+
+		   return new AppointmentDetailsPage(driver,node,test);
 
 	}
 }

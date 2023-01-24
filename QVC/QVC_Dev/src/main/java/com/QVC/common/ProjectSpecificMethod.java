@@ -36,8 +36,8 @@ public class ProjectSpecificMethod extends Base {
 			if(browserName.equalsIgnoreCase("chrome")) {
 				WebDriverManager.chromedriver().setup();
 				ChromeOptions options = new ChromeOptions();
-				//String downloadPath="C:\\Users\\thamarais\\eclipse-workspace\\Gerrys_Website\\downloads";
-				String downloadPath="./../documents/downloads/";
+
+				String downloadPath="C:\\Users\\thamarais\\git\\QVC_DEV\\QVC\\QVC_Dev\\documents";
 				HashMap<String, Object> Prefs = new HashMap<String, Object>();
 				Prefs.put("profile.default_content_settings.popups", 0);
 				Prefs.put("download.default_directory", downloadPath);

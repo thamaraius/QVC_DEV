@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jan 23 17:03:34 IST 2023</td>
+<td>Started on:</td><td>Tue Jan 24 12:39:39 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>200 seconds (200480 ms)</td>
+<tr><td>Total time:</td><td>183 seconds (183956 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,31 +76,11 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.QVC.testcases.TC_001_NormalAppointmentFlow.normalAppointmentFlow()'><b>normalAppointmentFlow</b><br>Test class: com.QVC.testcases.TC_001_NormalAppointmentFlow<br>Parameters: English, India, 9993456INDNWC, 99923456, 00917708432242 , thamarais@spinebiz.com, thamarais@spinebiz.com, Chennai, Normal, 27 ,  10:15, 27 ,  12:45</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;pull-right m-10 fw-500 font-two cursor-pointer&quot;&gt;...&lt;/span&gt; is not clickable at point (1138, 11). Other element would receive the click: &lt;p&gt;...&lt;/p&gt;
-  (Session info: chrome=109.0.5414.75)
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;VSWINCHE016&apos;, ip: &apos;10.101.10.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c6e2c3d99587e5bdf9744cb0351fe617, clickElement {id=1213b306-793c-4a4c-8ed9-9664792e0431}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53536}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53536/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (c6e2c3d99587e5bdf9744cb0351fe617)] -&gt; xpath: //span[text()=&apos;Download&apos;]]
-Session ID: c6e2c3d99587e5bdf9744cb0351fe617
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at com.QVC.pages.OrderSummaryPage.DownloadApptletter(OrderSummaryPage.java:56)
-	at com.QVC.testcases.TC_001_NormalAppointmentFlow.normalAppointmentFlow(TC_001_NormalAppointmentFlow.java:62)
+<td title='com.QVC.testcases.TC_004_Reschedule.normalAppointmentFlow()'><b>normalAppointmentFlow</b><br>Test class: com.QVC.testcases.TC_004_Reschedule<br>Parameters: English, India, 866363INDNWC, 866363, 00917708432242 , thamarais@spinebiz.com, thamarais@spinebiz.com, Chennai, Normal, 27 ,  11:15, 27 ,  11.00</td>
+<td><div><pre>java.lang.RuntimeException
+	at com.QVC.base.Base.locateElement(Base.java:287)
+	at com.QVC.pages.ModifySchedulePage.pickTime(ModifySchedulePage.java:91)
+	at com.QVC.testcases.TC_004_Reschedule.normalAppointmentFlow(TC_004_Reschedule.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -129,31 +109,11 @@ Session ID: c6e2c3d99587e5bdf9744cb0351fe617
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1408739590", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1408739590'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;pull-right m-10 fw-500 font-two cursor-pointer&quot;&gt;...&lt;/span&gt; is not clickable at point (1138, 11). Other element would receive the click: &lt;p&gt;...&lt;/p&gt;
-  (Session info: chrome=109.0.5414.75)
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;VSWINCHE016&apos;, ip: &apos;10.101.10.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c6e2c3d99587e5bdf9744cb0351fe617, clickElement {id=1213b306-793c-4a4c-8ed9-9664792e0431}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\THAMAR~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53536}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53536/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (c6e2c3d99587e5bdf9744cb0351fe617)] -&gt; xpath: //span[text()=&apos;Download&apos;]]
-Session ID: c6e2c3d99587e5bdf9744cb0351fe617
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at com.QVC.pages.OrderSummaryPage.DownloadApptletter(OrderSummaryPage.java:56)
-	at com.QVC.testcases.TC_001_NormalAppointmentFlow.normalAppointmentFlow(TC_001_NormalAppointmentFlow.java:62)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1739111611", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1739111611'><pre>java.lang.RuntimeException
+	at com.QVC.base.Base.locateElement(Base.java:287)
+	at com.QVC.pages.ModifySchedulePage.pickTime(ModifySchedulePage.java:91)
+	at com.QVC.testcases.TC_004_Reschedule.normalAppointmentFlow(TC_004_Reschedule.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -183,8 +143,8 @@ Session ID: c6e2c3d99587e5bdf9744cb0351fe617
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>49</td>
-<td>com.QVC.testcases.TC_001_NormalAppointmentFlow@5167f57d</td></tr>
+<td>36</td>
+<td>com.QVC.testcases.TC_004_Reschedule@2ad48653</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -195,20 +155,20 @@ Session ID: c6e2c3d99587e5bdf9744cb0351fe617
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.QVC.testcases.TC_003_ModifyDetails.normalAppointmentFlow()'><b>normalAppointmentFlow</b><br>Test class: com.QVC.testcases.TC_003_ModifyDetails<br>Parameters: English, India, 9993456INDNWC, 99923456, 00917708432242 , thamarais@spinebiz.com, thamarais@spinebiz.com, Chennai, Normal, 27 ,  10:15, 27 ,  12:45</td>
+<td title='com.QVC.testcases.TC_001_NormalAppointmentFlow.normalAppointmentFlow()'><b>normalAppointmentFlow</b><br>Test class: com.QVC.testcases.TC_001_NormalAppointmentFlow<br>Parameters: English, India, 866363INDNWC, 866363, 00917708432242 , thamarais@spinebiz.com, thamarais@spinebiz.com, Chennai, Normal, 27 ,  11:15, 27 ,  11.00</td>
 <td></td>
-<td>25</td>
-<td>com.QVC.testcases.TC_003_ModifyDetails@6bb4dd34</td></tr>
+<td>57</td>
+<td>com.QVC.testcases.TC_001_NormalAppointmentFlow@3e2055d6</td></tr>
 <tr>
-<td title='com.QVC.testcases.TC_002_Reprint.normalAppointmentFlow()'><b>normalAppointmentFlow</b><br>Test class: com.QVC.testcases.TC_002_Reprint<br>Parameters: English, India, 9993456INDNWC, 99923456, 00917708432242 , thamarais@spinebiz.com, thamarais@spinebiz.com, Chennai, Normal, 27 ,  10:15, 27 ,  12:45</td>
+<td title='com.QVC.testcases.TC_003_ModifyDetails.normalAppointmentFlow()'><b>normalAppointmentFlow</b><br>Test class: com.QVC.testcases.TC_003_ModifyDetails<br>Parameters: English, India, 866363INDNWC, 866363, 00917708432242 , thamarais@spinebiz.com, thamarais@spinebiz.com, Chennai, Normal, 27 ,  11:15, 27 ,  11.00</td>
 <td></td>
-<td>25</td>
-<td>com.QVC.testcases.TC_002_Reprint@32115b28</td></tr>
+<td>23</td>
+<td>com.QVC.testcases.TC_003_ModifyDetails@4b8729ff</td></tr>
 <tr>
-<td title='com.QVC.testcases.TC_004_Reschedule.normalAppointmentFlow()'><b>normalAppointmentFlow</b><br>Test class: com.QVC.testcases.TC_004_Reschedule<br>Parameters: English, India, 9993456INDNWC, 99923456, 00917708432242 , thamarais@spinebiz.com, thamarais@spinebiz.com, Chennai, Normal, 27 ,  10:15, 27 ,  12:45</td>
+<td title='com.QVC.testcases.TC_002_Reprint.normalAppointmentFlow()'><b>normalAppointmentFlow</b><br>Test class: com.QVC.testcases.TC_002_Reprint<br>Parameters: English, India, 866363INDNWC, 866363, 00917708432242 , thamarais@spinebiz.com, thamarais@spinebiz.com, Chennai, Normal, 27 ,  11:15, 27 ,  11.00</td>
 <td></td>
-<td>45</td>
-<td>com.QVC.testcases.TC_004_Reschedule@1a5b6f42</td></tr>
+<td>27</td>
+<td>com.QVC.testcases.TC_002_Reprint@7d9f158f</td></tr>
 </table><p>
 </body>
 </html>

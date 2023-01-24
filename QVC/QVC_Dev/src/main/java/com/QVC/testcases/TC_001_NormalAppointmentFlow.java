@@ -56,7 +56,7 @@ public void normalAppointmentFlow(String language,String Countryname,String pass
 					.Date(date)
 					.pickTime(timeSlot)
 					.clickNext()
-                     .clickCaptcha()
+                   //  .clickCaptcha()
 					.clickConfirm()
 					.DownloadApptletter();
 
