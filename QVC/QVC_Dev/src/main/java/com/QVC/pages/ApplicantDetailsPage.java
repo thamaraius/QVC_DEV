@@ -1,5 +1,8 @@
 package com.QVC.pages;
 
+import java.io.IOException;
+import java.util.Random;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -36,19 +39,26 @@ public class ApplicantDetailsPage extends Base {
 		System.out.println("Individual clicked");
 		return this;
 	}
-	public ApplicantDetailsPage enterPassportNumber(String text) throws InterruptedException
+	public ApplicantDetailsPage enterPassportNumber() throws InterruptedException, IOException
 	{
-		//Thread.sleep(500);
+		// To Generate random number this is used
+		Random randomGenerator = new Random();
+		int randomInt = randomGenerator.nextInt(10000);
 		WebElement ele = locateElement("xpath", "(//label[@for='usr']/following-sibling::input)[1]");
-		//WebElement ele = driver.findElementByXPath("(//label[@for='usr']/following-sibling::input)[1]");
-		clearAndType(ele, text);
+		ele.sendKeys(randomInt+ "NWCIND");
+		String PassportNumber=(randomInt+"NWCIND");
+		 writeExcel("./data/TestData.xlsx", 0, PassportNumber,2);
+
 		return this;
 	}
-	public ApplicantDetailsPage enterVisaNumber(String text) throws InterruptedException
+	public ApplicantDetailsPage enterVisaNumber() throws InterruptedException, IOException
 	{
+		Random randomGenerator = new Random();
+		int randomInt = randomGenerator.nextInt(100000);
 		WebElement ele = locateElement("Xpath", "(//label[@for='usr']/following-sibling::input)[2]");
-		//WebElement ele = driver.findElementByXPath("(//label[@for='usr']/following-sibling::input)[2]");
-		clearAndType(ele, text);
+		String strI = Integer.toString(randomInt);
+		ele.sendKeys(strI);
+		writeExcel("./data/TestData.xlsx", 0, strI,3);
 		return this;
 	}
 	public ApplicantDetailsPage enterCAPTCHA() throws InterruptedException

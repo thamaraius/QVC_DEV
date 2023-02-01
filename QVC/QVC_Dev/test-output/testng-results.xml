@@ -1,311 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="10" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-24T12:39:39 IST" name="Suite" finished-at="2023-01-24T12:42:43 IST" duration-ms="183956">
+  <suite started-at="2023-02-01T17:21:40 IST" name="Suite" finished-at="2023-02-01T17:23:17 IST" duration-ms="97857">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@3e2055d6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.QVC.testcases.TC_002_Reprint@7d9f158f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.QVC.testcases.TC_003_ModifyDetails@4b8729ff]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.QVC.testcases.TC_004_Reschedule@2ad48653]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@5167f57d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-01-24T12:39:39 IST" name="Test" finished-at="2023-01-24T12:42:43 IST" duration-ms="183956">
-      <class name="com.QVC.testcases.TC_004_Reschedule">
-        <test-method is-config="true" signature="setExcelValues()[pri:0, instance:com.QVC.testcases.TC_004_Reschedule@2ad48653]" started-at="2023-01-24T12:39:40 IST" name="setExcelValues" finished-at="2023-01-24T12:39:40 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setExcelValues -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.QVC.testcases.TC_004_Reschedule@2ad48653]" started-at="2023-01-24T12:40:51 IST" name="setUpClass" finished-at="2023-01-24T12:40:51 IST" duration-ms="16" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@72e49f6a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="report()[pri:0, instance:com.QVC.testcases.TC_004_Reschedule@2ad48653]" started-at="2023-01-24T12:40:51 IST" name="report" finished-at="2023-01-24T12:40:51 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method is-config="true" signature="beforeMethods(java.lang.String,java.lang.String)[pri:0, instance:com.QVC.testcases.TC_004_Reschedule@2ad48653]" started-at="2023-01-24T12:40:51 IST" name="beforeMethods" finished-at="2023-01-24T12:40:59 IST" duration-ms="8050" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://dev.qatarvisacenter.com/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethods -->
-        <test-method signature="normalAppointmentFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.QVC.testcases.TC_004_Reschedule@2ad48653]" started-at="2023-01-24T12:40:59 IST" name="normalAppointmentFlow" data-provider="fetchData" finished-at="2023-01-24T12:41:35 IST" duration-ms="36386" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[English]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[866363INDNWC]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[866363]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[00917708432242 ]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[thamarais@spinebiz.com]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[thamarais@spinebiz.com]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Normal]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[27 ]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[ 11:15]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[27 ]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[ 11.00]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.RuntimeException">
-            <full-stacktrace>
-              <![CDATA[java.lang.RuntimeException
-at com.QVC.base.Base.locateElement(Base.java:287)
-at com.QVC.pages.ModifySchedulePage.pickTime(ModifySchedulePage.java:91)
-at com.QVC.testcases.TC_004_Reschedule.normalAppointmentFlow(TC_004_Reschedule.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.RuntimeException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- normalAppointmentFlow -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.QVC.testcases.TC_004_Reschedule@2ad48653]" started-at="2023-01-24T12:41:35 IST" name="afterMethod" finished-at="2023-01-24T12:41:36 IST" duration-ms="306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.QVC.testcases.TC_004_Reschedule@2ad48653]" started-at="2023-01-24T12:41:36 IST" name="tearDownClass" finished-at="2023-01-24T12:41:36 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.QVC.testcases.TC_004_Reschedule -->
-      <class name="com.QVC.testcases.TC_003_ModifyDetails">
-        <test-method is-config="true" signature="setExcelValues()[pri:0, instance:com.QVC.testcases.TC_003_ModifyDetails@4b8729ff]" started-at="2023-01-24T12:39:40 IST" name="setExcelValues" finished-at="2023-01-24T12:39:40 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setExcelValues -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.QVC.testcases.TC_003_ModifyDetails@4b8729ff]" started-at="2023-01-24T12:42:12 IST" name="setUpClass" finished-at="2023-01-24T12:42:12 IST" duration-ms="13" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@72e49f6a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="report()[pri:0, instance:com.QVC.testcases.TC_003_ModifyDetails@4b8729ff]" started-at="2023-01-24T12:42:12 IST" name="report" finished-at="2023-01-24T12:42:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method is-config="true" signature="beforeMethods(java.lang.String,java.lang.String)[pri:0, instance:com.QVC.testcases.TC_003_ModifyDetails@4b8729ff]" started-at="2023-01-24T12:42:12 IST" name="beforeMethods" finished-at="2023-01-24T12:42:20 IST" duration-ms="8045" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://dev.qatarvisacenter.com/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethods -->
-        <test-method signature="normalAppointmentFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.QVC.testcases.TC_003_ModifyDetails@4b8729ff]" started-at="2023-01-24T12:42:20 IST" name="normalAppointmentFlow" data-provider="fetchData" finished-at="2023-01-24T12:42:43 IST" duration-ms="23402" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[English]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[866363INDNWC]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[866363]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[00917708432242 ]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[thamarais@spinebiz.com]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[thamarais@spinebiz.com]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Normal]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[27 ]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[ 11:15]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[27 ]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[ 11.00]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- normalAppointmentFlow -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.QVC.testcases.TC_003_ModifyDetails@4b8729ff]" started-at="2023-01-24T12:42:43 IST" name="afterMethod" finished-at="2023-01-24T12:42:43 IST" duration-ms="325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.QVC.testcases.TC_003_ModifyDetails@4b8729ff]" started-at="2023-01-24T12:42:43 IST" name="tearDownClass" finished-at="2023-01-24T12:42:43 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.QVC.testcases.TC_003_ModifyDetails -->
+    <test started-at="2023-02-01T17:21:40 IST" name="Test" finished-at="2023-02-01T17:23:17 IST" duration-ms="97857">
       <class name="com.QVC.testcases.TC_001_NormalAppointmentFlow">
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@3e2055d6]" started-at="2023-01-24T12:39:38 IST" name="startReport" finished-at="2023-01-24T12:39:39 IST" duration-ms="1358" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@5167f57d]" started-at="2023-02-01T17:21:38 IST" name="startReport" finished-at="2023-02-01T17:21:40 IST" duration-ms="1399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setExcelValues()[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@3e2055d6]" started-at="2023-01-24T12:39:39 IST" name="setExcelValues" finished-at="2023-01-24T12:39:39 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setExcelValues()[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@5167f57d]" started-at="2023-02-01T17:21:40 IST" name="setExcelValues" finished-at="2023-02-01T17:21:40 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExcelValues -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@3e2055d6]" started-at="2023-01-24T12:39:40 IST" name="setUpClass" finished-at="2023-01-24T12:39:40 IST" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@5167f57d]" started-at="2023-02-01T17:21:40 IST" name="setUpClass" finished-at="2023-02-01T17:21:40 IST" duration-ms="344" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@72e49f6a]]>
+                <![CDATA[org.testng.TestRunner@7de5871d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="report()[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@3e2055d6]" started-at="2023-01-24T12:39:40 IST" name="report" finished-at="2023-01-24T12:39:40 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@5167f57d]" started-at="2023-02-01T17:21:40 IST" name="report" finished-at="2023-02-01T17:21:40 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method is-config="true" signature="beforeMethods(java.lang.String,java.lang.String)[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@3e2055d6]" started-at="2023-01-24T12:39:41 IST" name="beforeMethods" finished-at="2023-01-24T12:39:53 IST" duration-ms="11295" status="PASS">
+        <test-method is-config="true" signature="beforeMethods(java.lang.String,java.lang.String)[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@5167f57d]" started-at="2023-02-01T17:21:42 IST" name="beforeMethods" finished-at="2023-02-01T17:22:14 IST" duration-ms="32149" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -321,7 +49,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethods -->
-        <test-method signature="normalAppointmentFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@3e2055d6]" started-at="2023-01-24T12:39:53 IST" name="normalAppointmentFlow" data-provider="fetchData" finished-at="2023-01-24T12:40:50 IST" duration-ms="57509" status="PASS">
+        <test-method signature="normalAppointmentFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@5167f57d]" started-at="2023-02-01T17:22:14 IST" name="normalAppointmentFlow" data-provider="fetchData" finished-at="2023-02-01T17:23:16 IST" duration-ms="62476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -370,12 +98,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="9">
               <value>
-                <![CDATA[27 ]]>
+                <![CDATA[7 ]]>
               </value>
             </param>
             <param index="10">
               <value>
-                <![CDATA[ 11:15]]>
+                <![CDATA[ 10:00]]>
               </value>
             </param>
             <param index="11">
@@ -385,142 +113,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="12">
               <value>
-                <![CDATA[ 11.00]]>
+                <![CDATA[ 12.45]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- normalAppointmentFlow -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@3e2055d6]" started-at="2023-01-24T12:40:50 IST" name="afterMethod" finished-at="2023-01-24T12:40:51 IST" duration-ms="362" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@5167f57d]" started-at="2023-02-01T17:23:16 IST" name="afterMethod" finished-at="2023-02-01T17:23:17 IST" duration-ms="1210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@3e2055d6]" started-at="2023-01-24T12:40:51 IST" name="tearDownClass" finished-at="2023-01-24T12:40:51 IST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@5167f57d]" started-at="2023-02-01T17:23:17 IST" name="tearDownClass" finished-at="2023-02-01T17:23:17 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="stopReport()[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@3e2055d6]" started-at="2023-01-24T12:42:44 IST" name="stopReport" finished-at="2023-01-24T12:42:44 IST" duration-ms="735" status="PASS">
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:com.QVC.testcases.TC_001_NormalAppointmentFlow@5167f57d]" started-at="2023-02-01T17:23:18 IST" name="stopReport" finished-at="2023-02-01T17:23:19 IST" duration-ms="1411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopReport -->
       </class> <!-- com.QVC.testcases.TC_001_NormalAppointmentFlow -->
-      <class name="com.QVC.testcases.TC_002_Reprint">
-        <test-method is-config="true" signature="setExcelValues()[pri:0, instance:com.QVC.testcases.TC_002_Reprint@7d9f158f]" started-at="2023-01-24T12:39:39 IST" name="setExcelValues" finished-at="2023-01-24T12:39:40 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setExcelValues -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.QVC.testcases.TC_002_Reprint@7d9f158f]" started-at="2023-01-24T12:41:36 IST" name="setUpClass" finished-at="2023-01-24T12:41:36 IST" duration-ms="13" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@72e49f6a]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="report()[pri:0, instance:com.QVC.testcases.TC_002_Reprint@7d9f158f]" started-at="2023-01-24T12:41:36 IST" name="report" finished-at="2023-01-24T12:41:36 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method is-config="true" signature="beforeMethods(java.lang.String,java.lang.String)[pri:0, instance:com.QVC.testcases.TC_002_Reprint@7d9f158f]" started-at="2023-01-24T12:41:36 IST" name="beforeMethods" finished-at="2023-01-24T12:41:44 IST" duration-ms="8316" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://dev.qatarvisacenter.com/]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethods -->
-        <test-method signature="normalAppointmentFlow(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.QVC.testcases.TC_002_Reprint@7d9f158f]" started-at="2023-01-24T12:41:44 IST" name="normalAppointmentFlow" data-provider="fetchData" finished-at="2023-01-24T12:42:11 IST" duration-ms="27346" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[English]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[India]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[866363INDNWC]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[866363]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[00917708432242 ]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[thamarais@spinebiz.com]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[thamarais@spinebiz.com]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Chennai]]>
-              </value>
-            </param>
-            <param index="8">
-              <value>
-                <![CDATA[Normal]]>
-              </value>
-            </param>
-            <param index="9">
-              <value>
-                <![CDATA[27 ]]>
-              </value>
-            </param>
-            <param index="10">
-              <value>
-                <![CDATA[ 11:15]]>
-              </value>
-            </param>
-            <param index="11">
-              <value>
-                <![CDATA[27 ]]>
-              </value>
-            </param>
-            <param index="12">
-              <value>
-                <![CDATA[ 11.00]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- normalAppointmentFlow -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.QVC.testcases.TC_002_Reprint@7d9f158f]" started-at="2023-01-24T12:42:11 IST" name="afterMethod" finished-at="2023-01-24T12:42:12 IST" duration-ms="190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.QVC.testcases.TC_002_Reprint@7d9f158f]" started-at="2023-01-24T12:42:12 IST" name="tearDownClass" finished-at="2023-01-24T12:42:12 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.QVC.testcases.TC_002_Reprint -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

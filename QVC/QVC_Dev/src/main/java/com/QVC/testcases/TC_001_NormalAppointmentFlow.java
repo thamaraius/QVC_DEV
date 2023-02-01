@@ -38,8 +38,8 @@ public void normalAppointmentFlow(String language,String Countryname,String pass
 					.checkLandingNotification()
 
 					.clickBookAppointment()
-					.enterPassportNumber(passportNumber)
-					.enterVisaNumber(visaNumber)
+					.enterPassportNumber()
+					.enterVisaNumber()
 					.enterCAPTCHA()
 					.clickSubmit()
 					.clickOK()
